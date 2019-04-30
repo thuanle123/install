@@ -31,6 +31,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 #install java
 sudo apt-get install default-jre -y
 
+#config git
+git config --global user.email "gile@ucsc.edu"
+git config --global user.name "Thuan Le"
+
 echo "checking version"
 curl --version
 python3 --version
